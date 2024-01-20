@@ -1,0 +1,72 @@
+1-1
+=======
+Redux 
+* predictable : state management JS Library
+	* Single Source of truth
+	* Immutable Behavior
+	* Usage of Pure Function
+	* Object as a Action
+	* Unidirectional Flow
+* Centralized
+* Debuggable
+* Flexible
+	* Independent UI Framework
+	* Middleware Support
+
+               Redux
+	       *    *
+	      *      *		 
+	     *	      *
+	React Redux   Redux Toolkit
+				*
+				*
+				*
+			    RTK Query
+1-2
+=======
+Inner Working
+
+Action 
+Dispatch
+Payload
+Reducer
+Store
+
+1-4
+======
+React Router Dom
+src
+	page
+		login.tsx
+		home.tsx
+		notFound.tsx
+
+	components
+		ui
+	hooks
+	utils
+	types
+	styles
+	redux
+		store.tsx
+		folder/features
+				counter/counterSlice.ts
+				user/
+				cart/
+	routes
+		index.tsx
+	layout
+
+1-5
+=========
+Setup Redux Store
+
+1-6
+==========
+Hook store with react
+Create Slice
+1-7
+========
+1-10
+=======
+Middleware
