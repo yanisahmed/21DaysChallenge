@@ -1,14 +1,14 @@
-import { useDispatch, useSelector } from "react-redux";
 import "./App.css";
 import {
   decrement,
   increment,
   reset,
 } from "./redux/features/counter/counterSlice";
+import { useAppDispatch, useAppSelector } from "./redux/hook";
 
 function App() {
-  const count = useSelector((state) => state.counter.count);
-  const dispatch = useDispatch();
+  const count = useAppSelector((state) => state.counter.count);
+  const dispatch = useAppDispatch();
   return (
     <div className="flex flex-col justify-center items-center h-screen bg-gray-100">
       <div className="h-16">{count}</div>
